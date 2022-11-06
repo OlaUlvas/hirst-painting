@@ -12,9 +12,11 @@ color_list = [(199, 175, 117), (124, 36, 24), (210, 221, 213), (168, 106, 57), (
 tim.speed("fastest")
 tim.penup()
 tim.hideturtle()
-tim.setheading(225)
-tim.forward(300)
-tim.setheading(0)
+tim.left(180)
+tim.forward(250)
+tim.left(90)
+tim.forward(225)
+tim.left(90)
 
 number_of_dots = 100
 
